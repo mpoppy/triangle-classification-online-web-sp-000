@@ -19,6 +19,7 @@ class Triangle
       puts ":isosceles"
     else
       puts ":scalene"
+    end
   end
 
   class TriangleError < StandardError

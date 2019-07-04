@@ -9,6 +9,10 @@ class Triangle
   end
 
   def kind
+    #returns type of Triangle
+    #:equilateral - 3 equal sides
+    #: isosceles - 2 equal sides
+    #: scalene - no equal sides
 
   end
 end

@@ -13,9 +13,10 @@ class Triangle
     #:equilateral - 3 equal sides
     #: isosceles - 2 equal sides
     #: scalene - no equal sides
+    if @length_one == @length_two @@ @length_three
   end
 
   class TriangleError < StandardError
   end
-  
+
 end

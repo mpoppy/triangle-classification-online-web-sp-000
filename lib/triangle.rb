@@ -15,7 +15,7 @@ class Triangle
     #: scalene - no equal sides
     if (@length_one == 0 || @length_two == 0 || @length_three == 0) || \
        (@length_one < 0 || @length_two < 0 || @length_three < 0) || \
-       (@length_one + @length_two < @length_three || @length_two + @length_three < @length_one || @length_one + @length_three < @length_two || || @length_two + @length_one < @length_three)
+       (@length_one + @length_two < @length_three || @length_two + @length_three < @length_one || @length_one + @length_three < @length_two || @length_two + @length_one < @length_three)
       raise TriangleError
     else
       if @length_one == @length_two and @length_two == @length_three

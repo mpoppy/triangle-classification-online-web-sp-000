@@ -13,6 +13,8 @@ class Triangle
     #:equilateral - 3 equal sides
     #: isosceles - 2 equal sides
     #: scalene - no equal sides
+  end
 
+  class TriangleError < StandardError
   end
 end

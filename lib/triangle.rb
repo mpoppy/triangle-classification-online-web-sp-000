@@ -14,6 +14,7 @@ class Triangle
     #: isosceles - 2 equal sides
     #: scalene - no equal sides
     if @length_one == @length_two @@ @length_three
+      puts ":equilateral"
   end
 
   class TriangleError < StandardError

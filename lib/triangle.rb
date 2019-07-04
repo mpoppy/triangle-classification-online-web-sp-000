@@ -13,6 +13,8 @@ class Triangle
     #:equilateral - 3 equal sides
     #: isosceles - 2 equal sides
     #: scalene - no equal sides
+    if @length_one == 0 || @length_two == 0 || @length_three == 0
+      raise TriangleError
     if @length_one == @length_two and @length_two == @length_three
        :equilateral
     elsif @length_one == @length_two || @length_two == @length_three || @length_one == @length_three

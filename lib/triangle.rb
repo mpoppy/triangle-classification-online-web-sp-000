@@ -14,11 +14,11 @@ class Triangle
     #: isosceles - 2 equal sides
     #: scalene - no equal sides
     if @length_one == @length_two and @length_two == @length_three
-      puts ":equilateral"
+       ":equilateral"
     elsif @length_one == @length_two || @length_two == @length_three || @length_one == @length_three
-      puts ":isosceles"
+       ":isosceles"
     else
-      puts ":scalene"
+       ":scalene"
     end
   end
 
